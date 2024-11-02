@@ -29,7 +29,7 @@ public class HolaMundo {
 
         //entrada de datos
         var scanner = new Scanner(System.in); //var permite crear rapidamente variables sin necesidad de especificar el tipo de variable
-        //(scanner es el nombre del objeto de la clase Scanner pero se puede usar cualquier nombre)
+        //(scanner es el nombre del objeto de la clase Scanner pero se puede usar cualquier otro nombre)
 
         System.out.print("Por favor ingrese un numero entero: ");
         var entero = scanner.nextInt();
@@ -42,7 +42,8 @@ public class HolaMundo {
 }
 
 /* NOTAS
-* Los archivos java deben ir con 
+
+* Los archivos java deben ir con upper camel case: HolaMundo.java
 * El nombre de la clase debe ser el mismo nombre del archivo
 * Dentro de la clase debe de ir el metodo main
 
@@ -53,6 +54,6 @@ public class HolaMundo {
     javac HolaMundo.java -> compilar
     java Holamundo -> ejecutar
 
-* Tambien podemos usar el boton run de vscode (porque ya tenemos la extension)
+* Tambien podemos usar el boton Run Java de vscode (porque ya tenemos la extension)
 
 */
